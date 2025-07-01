@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/dep-osc-wpa/sw.js', { scope: '/dep-osc-wpa/' })})}
